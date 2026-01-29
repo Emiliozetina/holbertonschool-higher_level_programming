@@ -1,4 +1,5 @@
--- Show the number of shows per genre
+-- Show the number of shos per genre
+
 SELECT g.name AS genre, COUNT(tg.tv_show_id) AS number_of_shows
 FROM genres g
 JOIN tv_show_genres tg 
